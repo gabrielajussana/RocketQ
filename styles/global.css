@@ -27,6 +27,7 @@ html{
 }
 
 body{
+  display: flex;
   height: 100vh;
   background: var(--background);
 }
@@ -90,7 +91,7 @@ button > img,
 button.outlined,
 .button.outlined{
   background: var(--white);
-  color: var(---blue);
+  color: var(--blue);
   border: .2rem solid var(--blue);
 }
 
