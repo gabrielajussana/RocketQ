@@ -10,6 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/room.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/modal.css">
 
     <title>Rocket.Q - Perguntas e Respostas</title>
   </head>
@@ -69,9 +70,85 @@
                   </a>
                 </div>
               </div>
+              <div class="question-wrapper">
+                <div class="question-content">
+                  <div class="user">
+                    <img src="./assets/avatar.svg" alt="avatar">
+                  </div>
+                  <div class="question">
+                      <p>O que é JavaScript? </p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <a href="#">
+                    <img src="./assets/check.svg" alt="check">
+                    Marcar como lida
+                  </a>
+                  <a href="#">
+                    <img src="./assets/excluir.svg" alt="excluir">
+                    Excluir
+                  </a>
+                </div>
+              </div>
+              <div class="question-wrapper">
+                <div class="question-content">
+                  <div class="user">
+                    <img src="./assets/avatar.svg" alt="avatar">
+                  </div>
+                  <div class="question">
+                      <p>Você já sabe quais as bases você precisa melhorar para alcançar o seu próximo nível? Definiu 
+                        o seu foco e objetivo para seguir em frente? Estou curiosa com sua perseverança por ter alcançado 
+                        a terceira aula e sei que vai continuar até o fim.
+                         </p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <a href="#">
+                    <img src="./assets/check.svg" alt="check">
+                    Marcar como lida
+                  </a>
+                  <a href="#">
+                    <img src="./assets/excluir.svg" alt="excluir">
+                    Excluir
+                  </a>
+                </div>
+              </div>
+              <div class="question-wrapper read">
+                <div class="question-content ">
+                  <div class="user">
+                    <img src="./assets/avatar.svg" alt="avatar">
+                  </div>
+                  <div class="question">
+                      <p>O que é TypeScript? </p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <a href="#">
+                    <img src="./assets/excluir.svg" alt="excluir">
+                    Excluir
+                  </a>
+                </div>
+              </div>
           </div>
         </section>
       </main>
+    </div>
+
+    <!-------MODAL-------->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+        <from action="#">
+          <label class="sr-only" for-id="password">Digite sua senha admin</label>
+          <input type="password" name="password" placeholder="Digite sua senha"/>
+
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </from>
+      </div>
     </div>
   </body>
 </html>
