@@ -1,0 +1,27 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielajussana/RocketQ.git"
+  },
+  "keywords": [],
+  "author": "Gabriela Jussana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielajussana/RocketQ/issues"
+  },
+  "homepage": "https://github.com/gabrielajussana/RocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
